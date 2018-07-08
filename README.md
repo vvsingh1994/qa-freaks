@@ -1,2 +1,2 @@
-# qa-freeks
+# qa-freaks
 A platform for questions and answers
