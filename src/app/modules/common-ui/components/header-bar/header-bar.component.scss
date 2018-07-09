@@ -1,0 +1,19 @@
+.qa-header-strip {
+    background-color: #ffffff;
+    height:3em;
+    border-bottom:1px solid #ccc;
+}
+
+.header-bar-tab-names {
+    padding-top: 5px;
+    padding-right: 1em;
+    margin: 5px;
+    float: left;
+    display:block;
+    font-size: 20px;
+    color: #5a0707;
+}
+
+.selected{
+    border-bottom: 3px solid #5a0707;
+}

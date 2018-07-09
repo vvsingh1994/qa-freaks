@@ -1,0 +1,11 @@
+<div class="qa-header-bar">
+  <div class="qa-header-strip">
+
+    <div class="fa font-awesome header-bar-tab-names" *ngFor="let tab of tabs">
+      <div [ngClass]="{selected: tab.isSelected}" (click)="changeSelectedTab(tab)">
+        {{tab.tabName}}
+      </div>
+
+    </div>
+  </div>
+</div>
