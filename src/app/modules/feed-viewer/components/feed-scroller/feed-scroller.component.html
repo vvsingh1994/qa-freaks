@@ -1,0 +1,4 @@
+<div class="feed-scroller" infiniteScroll [infiniteScrollDistance]="1" [infiniteScrollThrottle]="150" (scrolled)="onScrollDown()"
+  (scrolledUp)="onScrollUp()">
+  <ng-content class="feed-scroller-content"></ng-content>
+</div>
